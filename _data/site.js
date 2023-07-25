@@ -14,7 +14,7 @@ module.exports = {
     authorEmail: "johndoe@example.com"
   },
   hero: { // used in hero section of main page ie. index.html.njk
-    title: "Welcome to my purple blog",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium deserunt odio esse."
+    title: "Welcome to my digital garden",
+    description: "A place to store half-baked ideas, thoughts and notes.",
   }
 }

@@ -1,4 +1,5 @@
 ---
+title: 'Braindump: M3 "base" world'
 date: 2023-07-21
 tags:
     - metaverse
@@ -6,8 +7,6 @@ tags:
     - ideas
     - seedling
 ---
-# Braindump: M3 "base" world
-
 The base;
 - Serves as a hub where participants can gather, fostering a sense of shared community and belonging.
 - Inspires and motivates people by showcasing the work being undertaken by the community.
