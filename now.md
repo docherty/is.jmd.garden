@@ -10,3 +10,5 @@ eleventyNavigation:
 ---
 
 I'm currently exploring VR / AR / XR with a view to creating virtual experiences.
+
+Thanks to [Derek Sivers](https://sive.rs/nowff) for the idea of a /now page.
