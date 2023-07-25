@@ -3,6 +3,7 @@ title: Now
 description: What I'm doing now
 layout: layouts/post.njk
 hideTagsList: true
+permalink: /now
 eleventyNavigation:
   key: Now
   weight: 4
