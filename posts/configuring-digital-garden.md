@@ -13,8 +13,17 @@ tags:
 - push to Github repo
 - Netlify watches the repo for changes and builds a new Eleventy (11ty) site
 
+```mermaid
+graph LR
+b1[hackmd]
+b2[Github repo]
+b3[Netlify]
+b4[jmd.is]
+
+b1 --Push--> b2 --Listen--> b3 --Build 11ty--> b4
+```
 ## /now
-To set up the /now page I had to:
-- create a rewrite in `netlify.toml` to /pages/now/
-- manually edit the navigation template (include)
+To set up the `/now` page I had to:
+- create a rewrite in `netlify.toml` to `/pages/now/`
+- manually edit the navigation template (include) to hardcode the link
 
