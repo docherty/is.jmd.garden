@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 
 
-This is a digital garden. My long-running passion to share tidbits that might be useful to someone was prodded by Jin & neilpo. They introduced the concept of a [digital garden](https://maggieappleton.com/garden-history) which really chimed with my reticence to publish anything because I was in the old-school blog posting mindset.
+This is a digital garden. My long-running passion to share tidbits that might be useful to someone was prodded by [Jin](https://twitter.com/dankvr) & [reneil](https://twitter.com/reneil1337). They introduced me to the concept of a [digital garden](https://maggieappleton.com/garden-history) which reminded me of the Indieweb movement. The emphasis on publishing unfinished thoughts (aka seedlings) really chimed with my reticence to publish anything because I was in the old-school blog posting mindset.
 
 ## How notes are organised
 
