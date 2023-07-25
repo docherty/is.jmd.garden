@@ -1,5 +1,6 @@
 ---
 title: 'Braindump: M3 "base" world'
+description: An idea of how individuals can create a base on their own homespace and feed into a collective world
 date: 2023-07-21
 tags:
     - metaverse

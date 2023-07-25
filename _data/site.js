@@ -1,17 +1,17 @@
 module.exports = {
   meta: {
-    title: "Digital Garden",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "James Docherty",
+    description: "Notes from the front lines.",
     lang: "en",
-    siteUrl: "https://example.com/",
+    siteUrl: "https://jmd.is/",
   },
   feed: { // used in feed.xml.njk
-    subtitle: "Lorem ipsum dolor sit amet consecuteor",
+    subtitle: "Notes from journeys around the internet and beyond.",
     filename: "atom.xml",
     path: "/atom.xml",
-    id: "https://example.com/",
-    authorName: "John Doe",
-    authorEmail: "johndoe@example.com"
+    id: "https://jmd.is/",
+    authorName: "James Docherty",
+    authorEmail: "james@jmd.is"
   },
   hero: { // used in hero section of main page ie. index.html.njk
     title: "Welcome to my digital garden",
