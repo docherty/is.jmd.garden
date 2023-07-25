@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: "My Purple Blog",
+    title: "Digital Garden",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     lang: "en",
     siteUrl: "https://example.com/",
