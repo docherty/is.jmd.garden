@@ -4,6 +4,12 @@ layout: layouts/base.njk
 
 <div class="container-sm" data-pagefind-body>
   <h1>{{ title }}</h1>
+  <div class="dateBlock">
+    {% if lastupdate %}
+      First published {{ page.date | prettyDate }} | Last updated <b>{{ lastupdate | prettyDate }}</b>
+    {% else %}
+      Published: <b>{{ page.date | prettyDate }}</b>
+    {% endif %}</div>
   {{ content | safe }}
 
   <br><hr>

@@ -19,6 +19,10 @@ module.exports = (config) => {
   config.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL, yyyy");
   });
+  
+  config.addFilter("prettyDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("DDD");
+  });
 
   config.addCollection("tagList", collection => {
     const tagsObject = {}

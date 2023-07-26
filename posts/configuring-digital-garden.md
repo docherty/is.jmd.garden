@@ -2,6 +2,7 @@
 title: Configuring my digital garden
 description: How I set up my personal knowledge base
 date: 2023-07-25
+lastupdate: 2023-07-26
 tags:
  - "digital gardening"
  - setup
@@ -31,3 +32,12 @@ I can add anything I want here to configure how the page appears on the 11ty sit
 To set up the `/now` page I had to:
 - create a rewrite in `netlify.toml` to `/pages/now/`
 - manually edit the navigation template (include) to hardcode the link
+## Search
+Search is powered by [Pagefind](https://pagefind.app/). I followed the instructions given by [Robb Knight](https://rknight.me/using-pagefind-with-eleventy-for-search/) and it worked like a charm. Will be interesting to see how it scales but it's definitely good enough for now.
+## Local dev
+I set up Netify CLI and dev tools to build & test locally. The /now redirect doesn't work but everything else seems OK. Netlify is a really impressive service.
+
+----
+### Todo
+- Add mermaid support for diagrams
+- Add data relationship support (visual graph)
