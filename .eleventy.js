@@ -1,6 +1,7 @@
 const { DateTime } = require('luxon')
 const navigationPlugin = require('@11ty/eleventy-navigation')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
+const { execSync } = require('child_process')
 
 module.exports = (config) => {
   config.addPlugin(navigationPlugin);
@@ -41,5 +42,7 @@ module.exports = (config) => {
     return tagList.sort((a, b) => b.tagCount - a.tagCount)
 
   });
-
+  config.on('eleventy.after', () => {
+    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  });
 }
