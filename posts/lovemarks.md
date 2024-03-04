@@ -1,0 +1,6 @@
+- Atomic ski boots
+- Logitech ergo trackball
+- Ikea
+- Guiness
+- My Macbook Pro
+- 
